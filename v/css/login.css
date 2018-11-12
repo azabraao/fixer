@@ -1,0 +1,29 @@
+input,p,span,button,a{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Varela Round',sans-serif;
+}
+#display-content{
+	display: contents !important;
+}		
+.fa-grimace{
+    font-size: 20px;
+    margin-bottom: -5px;
+    background-color: #ffdd57;
+    border-radius: 20px;
+    color: #000;			
+}
+.fa-smile{
+    color: #ffdd57;
+    background-color: #000;
+    border-radius: 20px;
+    margin-bottom: -1px;			
+}
+#help-email,#help-pass,#help-name{
+	display: none;
+}
+
+.checkbox{
+    margin: 10px 0px !important;
+}

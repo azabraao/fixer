@@ -1,0 +1,74 @@
+h1,h2,h3,h4,input,textarea,.modal-card-title{
+    font-family: 'Varela round', sans-serif;    
+}
+label,span,p{
+    font-family: 'Open Sans', sans-serif;
+}
+.section{
+    padding: 5rem 1.5rem !important;
+}
+
+#login-link-index{
+    position: absolute;
+    right: 120px;
+    top: 0;
+    bottom: 0;    	
+}
+#cadastro-link-index{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;    	
+}
+.box:hover{
+    background-color: #f3f3f3;
+}
+
+.fa-square{
+    box-sizing: border-box;
+    font-size: 16px;  
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;      
+}
+
+.fa-square:hover,.fa-square:active,.fa-square:focus{
+    background-image: url('../img/checked.png');
+    background-size: contain;
+}
+
+.box{
+    margin-bottom: 0px !important;
+    cursor: pointer;
+    box-shadow: none !important;
+    background: none;
+}
+.box-wrapper{
+    position: relative;
+}
+
+
+/*lista */
+
+#list-example{
+	box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    padding: 40px 0px;
+    border-radius: 20px;
+}
+
+
+/*modal*/
+#input-description{
+    height: 118px;
+    overflow-y: hidden;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    resize: none;    
+}
+.modal-card-title{
+    flex-shrink: initial;
+}

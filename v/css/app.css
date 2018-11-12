@@ -1,0 +1,240 @@
+h1,h2,h3,h4,input,textarea,.modal-card-title{
+    font-family: 'Varela round', sans-serif;    
+}
+label,span,p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.is-vertical-align-middle{
+    vertical-align: middle;
+}
+/*NAV*/
+.fa-user{
+    margin-right: 10px;
+}
+#logoff-mobile{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;    
+}
+/*INPUT*/
+#btn-add-field{
+    margin-right: 2px;
+}
+#new-set-addons{
+    margin-left: 60px;
+}
+@media (max-width: 768px){
+    #new-set-addons{
+        margin-left: 0px;
+    }
+}
+.new-set-addons-item{
+    border:none;
+}
+.dropdown-item-add-field:hover .fa-circle{
+    background-image: url('../img/radio.png');
+    background-size: contain;
+}
+.field-dropdown{
+    vertical-align: text-bottom;
+    margin-left: 3px;
+}
+#input-field-dropdown{
+    height: 26px;
+    padding: 0px 10px;
+    background-color: transparent;
+}
+#input-field-dropdown:focus {
+    outline: none;
+}
+#icon-input-field-dropdown {
+    vertical-align: middle;
+}
+
+
+
+.dropdown-item-add-cicle:hover .fa-circle{
+    background-image: url('../img/radio.png');
+    background-size: contain;
+}
+.cicle-dropdown{
+    vertical-align: text-bottom;
+    margin-left: 3px;
+}
+#input-cicle-dropdown{
+    height: 26px;
+    padding: 0px 10px;
+    background-color: transparent;
+}
+#input-cicle-dropdown:focus {
+    outline: none;
+}
+#icon-input-cicle-dropdown {
+    vertical-align: middle;
+}
+
+.has-text-ccc{
+    color: #ccc;    
+}
+.no-border{
+    border: none !important;
+}
+.new-set-wrapper-on{
+    padding: 15px 25px 15px 9px;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    border-radius: 10px;
+}
+.new-set-toggle{
+}
+#input-title-review,#description{
+    box-shadow: none;
+    border:none;    
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+}
+#description{
+    border: none;
+}
+#input-title-review::-webkit-input-placeholder {
+    font-weight: bold;
+}
+#description{
+    resize: none;
+}
+#description-wrapper{
+    /*display: none;*/
+}
+
+#label{
+    margin-left: 60px;
+    border: none;
+}
+#label svg{
+    margin-right: 10px;
+}
+/*CARDS*/
+.days-late-message{
+    font-size: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.name-studyfield{
+    vertical-align: middle;
+}
+.study-field{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.rotate-90deg{
+    transform:rotate(-90deg);
+}
+.chevron-studyfield{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.tag{
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    font-size: 10px !important;
+}
+#btn-yesterday,#btn-tomorrow{
+    border:none;
+}
+#btn-yesterday{
+    margin-right: 30px;
+}
+#btn-tomorrow{
+    margin-left: 30px;
+}
+
+.title{
+    display: inline-block;
+}
+.box:hover{
+    background-color: #f3f3f3;
+}
+
+.fa-check-square,.fa-square{
+    box-sizing: border-box;
+    font-size: 16px;  
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;      
+}
+
+@media (max-width: 768px){
+    .fa-check-square,.fa-square{
+        box-sizing: border-box;
+        font-size: 20px;  
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;      
+        margin: auto 15px;   
+    }
+}
+.fa-square:hover,.fa-square:active,.fa-square:focus{
+    background-image: url('../img/checked.png');
+    background-size: contain;
+}
+
+.box{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px !important;
+    cursor: pointer;
+    box-shadow: none !important;
+}
+.box-wrapper{
+    position: relative;
+}
+#hj-helper{
+    margin-left: -50px;
+    border: none;
+}
+
+/*MODAL*/
+.modal-card-title{
+    flex-shrink: initial;
+}
+#dropdown-delete-review{
+    max-width: 200px;
+}
+#modal-select-studyfield{
+    max-width: 150px !important;
+}
+
+
+/*TUTORIAL*/
+.tutorial{
+    z-index: 40;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 13px;
+    width: 358px;
+    margin: auto;
+    border-radius: 13px;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);    
+}
+@media (max-width: 768px){
+    .tutorial{
+        bottom: 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+.tutorial-body,.tutorial-footer{
+    padding: 0.5rem;
+}
